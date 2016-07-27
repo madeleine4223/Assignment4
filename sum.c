@@ -7,7 +7,7 @@ int main(){
 	int counter=0;
 	char x;
 	printf("Enter integers:\n");
-	do 
+	do /*inputs variables*/ 
 	{
 		scanf("%d", &num1[i]);	
 		i++;
@@ -15,7 +15,7 @@ int main(){
 	}
 	while (getchar()!='\n');
 	printf("counter is %d\n", counter);
-	for (i=0;i<counter; i++)
+	for (i=0;i<counter; i++) /*if num is negative, subtract one from the counter*/
 	{
 		if (num1[i]<0)
 			counter--;
@@ -30,7 +30,7 @@ int main(){
 			num2[i]=num2[i-1]+num1[i];
 			printf(", %d", num2[i]);
 		}
-		else if (i==counter)
+		else if (i==counter) /*if last num, new line*/
 		{
 			printf("\n");
 		}
