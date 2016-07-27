@@ -1,0 +1,12 @@
+Madeleine Charity 
+
+1. You can use "strcat", and this will concatinate the strings and replace the /0 character at the end of the first string.
+
+2.The array will set to however many variables is assigned to it. Ex if the code is "int nums[]={1, 2, 3, 4};" then the size would be set to four.
+
+3. You would declare it as "int nums [8] [8];" this creates 8 "rows" and 8"colums" to put data in. Each "[8]" creates a array of 8, and we can store data in the array. 
+
+4a. strcmp() compares two strings to see if they are the same 
+4b. fgets() allows the user to input a string from the keyboard
+4c. strcat() links two stings together 
+4d. strlen() tells us how long a string is, not counting \0
